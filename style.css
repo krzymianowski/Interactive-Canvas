@@ -6,6 +6,7 @@
 
 html {
     font-size: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -14,7 +15,6 @@ header {
     color: white;
     position: relative;
     overflow-x: hidden;
-    font-family: 'Lato', sans-serif;
 }
 
 main {
@@ -39,6 +39,10 @@ header nav {
     position: absolute;
     right: 10%;
     top: 4%;
+    font-size: 2rem;
+}
+
+header nav i{
     font-size: 3rem;
 }
 

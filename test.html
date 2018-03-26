@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Interactive-Canvas - test page</title>
 </head>
 
 <body>
     <header id="header">
         <canvas id="main-canvas"></canvas>
-        <nav>
-            <i class="fa fa-bars"></i>
+        <nav id="pause">
+            <i class="fa fa-toggle-on"></i> toggle animation
         </nav>
         <hgroup>
+            <p id="fps"></p>
             <h1>Tomasz Krzymianowski</h1>
             <h3>Junior java developer</h3>
         </hgroup>
@@ -28,4 +30,5 @@
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="canvas.js"></script>
 </body>
+
 </html>
